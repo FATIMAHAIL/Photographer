@@ -1,0 +1,197 @@
+    @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+    * {
+        box-sizing: border-box;
+        font-family: "Alexandria", sans-serif;
+        direction: rtl;
+        text-align: right;
+    }
+    
+    .header {
+        max-width: 900px;
+        margin: 0px auto 0px;
+        display: flex;
+        padding-top: 0px;
+        align-items: center;
+        justify-content: space-between;
+        /* يخلي العنوان يسار والمنيو والزر موزعين */
+    }
+    
+    .header_ul {
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .header_ul li {
+        color: #333;
+        margin: 20px auto;
+        width: 25px;
+        list-style: none;
+        padding: 40px;
+        margin: 0 10px;
+    }
+    
+    .header_ul li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        font-size: 18px;
+        padding: auto;
+        width: max-content;
+    }
+    
+    .header_h3 {
+        font-size: 30px;
+        color: #333;
+        transform: translatex(100px);
+        /* يخلي العنوان عاليسار */
+        font-weight: bold;
+        width: max-content;
+    }
+    
+    .header_btn {
+        padding: 10px 20px;
+        background-color: #cf4b16;
+        color: #fff;
+        border: none;
+        border-radius: 15px;
+        /*cursor: pointer;*/
+        font-size: 20px;
+        transform: translatex(-100px);
+    }
+    
+    .header_btn:hover {
+        color: #351602;
+        font-size: 22px;
+        transition: all 0.3s ease;
+    }
+    
+    .header_ul li a:hover {
+        color: #f3741f;
+        transition: all 0.3s ease;
+    }
+    
+    .main {
+        max-width: 1500px;
+        margin: 50px auto 0px;
+        text-align: center;
+        padding: 0 20px;
+        display: flex;
+        transform: translatex(100px);
+    }
+    
+    .main_h1 {
+        width: 100%;
+        font-size: 40px;
+        color: #333;
+        transform: translatex(-300px);
+        align-items: center;
+    }
+    
+    .main_p {
+        font-size: 20px;
+        color: #666;
+        line-height: 1.6;
+        margin-bottom: 30px;
+        transform: translatex(-150px);
+        transform: translatey(150px);
+        max-width: 600px;
+    }
+    
+    .main_img {
+        width: 400px;
+        height: auto;
+        border-radius: 20px;
+        transform: translatex(-150px);
+    }
+    
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+    
+    .card {
+        background: #fff;
+        padding: 1rem;
+        border-radius: 8px;
+    }
+    
+    .paragraph_section {
+        max-width: 900px;
+        margin: 100px auto 0px;
+        padding: 0 20px;
+        text-align: center;
+        color: #5a2005;
+        font-size: 20px;
+        line-height: 1.7;
+    }
+    
+    .paragraph_h2 {
+        text-align: center;
+    }
+    
+    .tow_section {
+        max-width: 900px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 100px auto;
+    }
+    
+    .paragraph_btn {
+        padding: 10px 20px;
+        background-color: #cf4b16;
+        color: #fff;
+        border: none;
+        border-radius: 15px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .paragraph_btn:hover {
+        background-color: #351602;
+        transition: all 0.3s ease;
+    }
+    
+    .cards {
+        max-width: 800px;
+        margin: 100px auto 0px;
+        padding: 0 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        font-size: 20px;
+        gap: 20px;
+        box-sizing: border-box;
+    }
+    
+    section.cards article {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    section.cards article:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    
+    section.cards article img {
+        max-width: 100px;
+        direction: ltr;
+    }
+    
+    section.cards article h6 {
+        color: #df3131;
+        font-size: 18px;
+        margin-top: 5px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+    }
